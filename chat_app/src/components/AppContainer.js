@@ -45,8 +45,8 @@ const styles = {
   },
 };
 
-// const ENDPOINT = "http://127.0.0.1:5133";
-const ENDPOINT = "http://136.159.5.25:5133"; //CPSC server
+const ENDPOINT = "http://127.0.0.1:5133";
+// const ENDPOINT = "http://136.159.5.25:5133"; //CPSC server
 
 function AppContainer(props) {
   const [socket, setSocket] = useState();
